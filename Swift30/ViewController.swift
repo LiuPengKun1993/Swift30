@@ -3,15 +3,15 @@
 //  Swift30
 //
 //  Created by liupengkun on 2020/1/8.
-//  Copyright © 2020 刘朋坤. All rights reserved.
+//  Copyright © 2020 liupengkun. All rights reserved.
 //
 
 import UIKit
 
 class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate {
     
-    var classNames = ["NNStopWatchController", "NNStopWatchController","NNStopWatchController", "2","1", "2","1", "2","1", "2","1", "2","1", "2","1", "2","1", "2","1", "2","1", "2","1", "2"]
-    var titleNames = ["计时器", "2","1", "2","1", "2","1", "2","1", "2","1", "2","1", "2","1", "2","1", "2","1", "2","1", "2","1", "2"]
+    var classNames = ["NNStopWatchController", "NNBatteryController"]
+    var titleNames = ["计时器", "电池条"]
     
     override func viewDidLoad() {
         super.viewDidLoad()

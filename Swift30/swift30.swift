@@ -3,7 +3,7 @@
 //  Swift30
 //
 //  Created by liupengkun on 2020/1/8.
-//  Copyright © 2020 刘朋坤. All rights reserved.
+//  Copyright © 2020 liupengkun. All rights reserved.
 //
 
 import UIKit
