@@ -2,7 +2,7 @@
 //  NNStopWatchController.swift
 //  Swift30
 //
-//  Created by 彭倩倩 on 2020/1/8.
+//  Created by liupengkun on 2020/1/8.
 //  Copyright © 2020 刘朋坤. All rights reserved.
 //
 
