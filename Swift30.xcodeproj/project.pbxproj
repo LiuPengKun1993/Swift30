@@ -22,6 +22,8 @@
 		564BBFCD23CEF67F002740C3 /* NNBatteryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564BBFCC23CEF67F002740C3 /* NNBatteryView.swift */; };
 		564BBFCF23CFF4D8002740C3 /* NNValidationCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564BBFCE23CFF4D8002740C3 /* NNValidationCodeView.swift */; };
 		564BBFD123CFF4E7002740C3 /* NNValidationCodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564BBFD023CFF4E7002740C3 /* NNValidationCodeController.swift */; };
+		564BBFD323D033EA002740C3 /* NNValidationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564BBFD223D033EA002740C3 /* NNValidationView.swift */; };
+		564BBFD523D033F6002740C3 /* NNValidationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564BBFD423D033F6002740C3 /* NNValidationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		564BBFCC23CEF67F002740C3 /* NNBatteryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNBatteryView.swift; sourceTree = "<group>"; };
 		564BBFCE23CFF4D8002740C3 /* NNValidationCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNValidationCodeView.swift; sourceTree = "<group>"; };
 		564BBFD023CFF4E7002740C3 /* NNValidationCodeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNValidationCodeController.swift; sourceTree = "<group>"; };
+		564BBFD223D033EA002740C3 /* NNValidationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNValidationView.swift; sourceTree = "<group>"; };
+		564BBFD423D033F6002740C3 /* NNValidationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNValidationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -384,8 +388,8 @@
 		564BBFBD23C57931002740C3 /* Project 03 */ = {
 			isa = PBXGroup;
 			children = (
-				564BBFCE23CFF4D8002740C3 /* NNValidationCodeView.swift */,
 				564BBFD023CFF4E7002740C3 /* NNValidationCodeController.swift */,
+				564BBFCE23CFF4D8002740C3 /* NNValidationCodeView.swift */,
 			);
 			path = "Project 03";
 			sourceTree = "<group>";
@@ -393,6 +397,8 @@
 		564BBFBE23C57931002740C3 /* Project 04 */ = {
 			isa = PBXGroup;
 			children = (
+				564BBFD423D033F6002740C3 /* NNValidationController.swift */,
+				564BBFD223D033EA002740C3 /* NNValidationView.swift */,
 			);
 			path = "Project 04";
 			sourceTree = "<group>";
@@ -534,10 +540,12 @@
 				564BBFC323C58531002740C3 /* swift30.swift in Sources */,
 				564BBF7723C57836002740C3 /* Swift30.xcdatamodeld in Sources */,
 				564BBFCF23CFF4D8002740C3 /* NNValidationCodeView.swift in Sources */,
+				564BBFD523D033F6002740C3 /* NNValidationController.swift in Sources */,
 				564BBFCB23CEF66E002740C3 /* NNBatteryController.swift in Sources */,
 				564BBF7123C57836002740C3 /* ViewController.swift in Sources */,
 				564BBF6F23C57836002740C3 /* AppDelegate.swift in Sources */,
 				564BBFC523C5B67B002740C3 /* NNStopWatchController.swift in Sources */,
+				564BBFD323D033EA002740C3 /* NNValidationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

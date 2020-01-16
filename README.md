@@ -1,4 +1,5 @@
-![](/Users/pengqianqian/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/6be3c28eee67e826f3f4393e1e1efce1/Message/MessageTemp/9e20f478899dc29eb19741386f9343c8/Image/Swift30.jpg)
+![](https://github.com/liuzhongning/Swift30/blob/master/resources/Swift30.jpg)
 
-
-###
+### 1.计时器
+### 2.电池条
+### 3.圆形验证码输入框

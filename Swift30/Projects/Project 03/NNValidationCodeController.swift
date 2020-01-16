@@ -12,7 +12,7 @@ class NNValidationCodeController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "圆形验证码输入框"
+        self.navigationItem.title = "圆形验证码输入框"
         self.view.backgroundColor = UIColor.white
         self.view.addSubview(validationCode)
     }
