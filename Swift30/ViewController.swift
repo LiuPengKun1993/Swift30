@@ -10,8 +10,8 @@ import UIKit
 
 class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate {
     
-    var classNames = ["NNStopWatchController", "NNBatteryController"]
-    var titleNames = ["计时器", "电池条"]
+    var classNames = ["NNStopWatchController", "NNBatteryController", "NNValidationCodeController"]
+    var titleNames = ["计时器", "电池条", "圆形验证码输入框"]
     
     override func viewDidLoad() {
         super.viewDidLoad()

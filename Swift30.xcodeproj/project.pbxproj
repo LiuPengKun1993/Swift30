@@ -20,6 +20,8 @@
 		564BBFC723C5B6A2002740C3 /* NNStopWatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564BBFC623C5B6A2002740C3 /* NNStopWatchView.swift */; };
 		564BBFCB23CEF66E002740C3 /* NNBatteryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564BBFCA23CEF66E002740C3 /* NNBatteryController.swift */; };
 		564BBFCD23CEF67F002740C3 /* NNBatteryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564BBFCC23CEF67F002740C3 /* NNBatteryView.swift */; };
+		564BBFCF23CFF4D8002740C3 /* NNValidationCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564BBFCE23CFF4D8002740C3 /* NNValidationCodeView.swift */; };
+		564BBFD123CFF4E7002740C3 /* NNValidationCodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564BBFD023CFF4E7002740C3 /* NNValidationCodeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		564BBFC623C5B6A2002740C3 /* NNStopWatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNStopWatchView.swift; sourceTree = "<group>"; };
 		564BBFCA23CEF66E002740C3 /* NNBatteryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNBatteryController.swift; sourceTree = "<group>"; };
 		564BBFCC23CEF67F002740C3 /* NNBatteryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNBatteryView.swift; sourceTree = "<group>"; };
+		564BBFCE23CFF4D8002740C3 /* NNValidationCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNValidationCodeView.swift; sourceTree = "<group>"; };
+		564BBFD023CFF4E7002740C3 /* NNValidationCodeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNValidationCodeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -380,6 +384,8 @@
 		564BBFBD23C57931002740C3 /* Project 03 */ = {
 			isa = PBXGroup;
 			children = (
+				564BBFCE23CFF4D8002740C3 /* NNValidationCodeView.swift */,
+				564BBFD023CFF4E7002740C3 /* NNValidationCodeController.swift */,
 			);
 			path = "Project 03";
 			sourceTree = "<group>";
@@ -524,8 +530,10 @@
 			files = (
 				564BBFCD23CEF67F002740C3 /* NNBatteryView.swift in Sources */,
 				564BBFC723C5B6A2002740C3 /* NNStopWatchView.swift in Sources */,
+				564BBFD123CFF4E7002740C3 /* NNValidationCodeController.swift in Sources */,
 				564BBFC323C58531002740C3 /* swift30.swift in Sources */,
 				564BBF7723C57836002740C3 /* Swift30.xcdatamodeld in Sources */,
+				564BBFCF23CFF4D8002740C3 /* NNValidationCodeView.swift in Sources */,
 				564BBFCB23CEF66E002740C3 /* NNBatteryController.swift in Sources */,
 				564BBF7123C57836002740C3 /* ViewController.swift in Sources */,
 				564BBF6F23C57836002740C3 /* AppDelegate.swift in Sources */,
