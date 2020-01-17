@@ -24,6 +24,9 @@
 		564BBFD123CFF4E7002740C3 /* NNValidationCodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564BBFD023CFF4E7002740C3 /* NNValidationCodeController.swift */; };
 		564BBFD323D033EA002740C3 /* NNValidationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564BBFD223D033EA002740C3 /* NNValidationView.swift */; };
 		564BBFD523D033F6002740C3 /* NNValidationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564BBFD423D033F6002740C3 /* NNValidationController.swift */; };
+		564BC01423D03FB9002740C3 /* NNWeChatReadController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564BC01323D03FB9002740C3 /* NNWeChatReadController.swift */; };
+		564BC01623D04546002740C3 /* NNWeChatReadAnimationProtocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564BC01523D04546002740C3 /* NNWeChatReadAnimationProtocal.swift */; };
+		564BC01823D0458E002740C3 /* NNWeChatReadAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564BC01723D0458E002740C3 /* NNWeChatReadAnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +70,9 @@
 		564BBFD023CFF4E7002740C3 /* NNValidationCodeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNValidationCodeController.swift; sourceTree = "<group>"; };
 		564BBFD223D033EA002740C3 /* NNValidationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNValidationView.swift; sourceTree = "<group>"; };
 		564BBFD423D033F6002740C3 /* NNValidationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNValidationController.swift; sourceTree = "<group>"; };
+		564BC01323D03FB9002740C3 /* NNWeChatReadController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNWeChatReadController.swift; sourceTree = "<group>"; };
+		564BC01523D04546002740C3 /* NNWeChatReadAnimationProtocal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNWeChatReadAnimationProtocal.swift; sourceTree = "<group>"; };
+		564BC01723D0458E002740C3 /* NNWeChatReadAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNWeChatReadAnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -372,6 +378,9 @@
 		564BBFBB23C57931002740C3 /* Project 05 */ = {
 			isa = PBXGroup;
 			children = (
+				564BC01323D03FB9002740C3 /* NNWeChatReadController.swift */,
+				564BC01723D0458E002740C3 /* NNWeChatReadAnimationView.swift */,
+				564BC01523D04546002740C3 /* NNWeChatReadAnimationProtocal.swift */,
 			);
 			path = "Project 05";
 			sourceTree = "<group>";
@@ -541,7 +550,10 @@
 				564BBF7723C57836002740C3 /* Swift30.xcdatamodeld in Sources */,
 				564BBFCF23CFF4D8002740C3 /* NNValidationCodeView.swift in Sources */,
 				564BBFD523D033F6002740C3 /* NNValidationController.swift in Sources */,
+				564BC01823D0458E002740C3 /* NNWeChatReadAnimationView.swift in Sources */,
 				564BBFCB23CEF66E002740C3 /* NNBatteryController.swift in Sources */,
+				564BC01623D04546002740C3 /* NNWeChatReadAnimationProtocal.swift in Sources */,
+				564BC01423D03FB9002740C3 /* NNWeChatReadController.swift in Sources */,
 				564BBF7123C57836002740C3 /* ViewController.swift in Sources */,
 				564BBF6F23C57836002740C3 /* AppDelegate.swift in Sources */,
 				564BBFC523C5B67B002740C3 /* NNStopWatchController.swift in Sources */,
