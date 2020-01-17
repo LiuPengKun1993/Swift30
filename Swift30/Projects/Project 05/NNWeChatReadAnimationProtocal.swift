@@ -21,30 +21,32 @@ extension NNWeChatReadAnimationProtocal where Self:NNWeChatReadAnimationView {
     func transformAnimationView() -> Void {
         self.childView.isHidden = false
         self.isHidden = false
+        weak var weakSelf = self
         UIView.animate(withDuration: 0.75, animations: {
             var form1 = CATransform3DIdentity
             form1.m34 = -1 / 900
             form1 = CATransform3DRotate(form1, CGFloat(-90 * Double.pi / 180), 0, 1, 0)
-            self.childView.layer.transform = form1
-            self.childView.frame = self.tagertFrame
-            self.frame = self.tagertFrame
+            weakSelf!.childView.layer.transform = form1
+            weakSelf!.childView.frame = weakSelf!.tagertFrame
+            weakSelf!.frame = weakSelf!.tagertFrame
         }, completion: { _ in
-            self.isUserInteractionEnabled = true
+            weakSelf!.isUserInteractionEnabled = true
         })
     }
     
     func closeAnimationView() -> Void {
+        weak var weakSelf = self
         UIView.animate(withDuration: 0.75, animations: {
             var form1 = CATransform3DIdentity
             form1.m34 = -1 / 900
             form1 = CATransform3DRotate(form1, 0, 0, 1, 0)
-            self.childView.layer.transform = form1
-            self.childView.frame = CGRect(x: 0, y: 0, width: self.resertFrame.size.width, height: self.resertFrame.size.height)
-            self.frame = self.resertFrame
+            weakSelf!.childView.layer.transform = form1
+            weakSelf!.childView.frame = CGRect(x: 0, y: 0, width: weakSelf!.resertFrame.size.width, height: weakSelf!.resertFrame.size.height)
+            weakSelf!.frame = weakSelf!.resertFrame
         }, completion: { _ in
-            self.isUserInteractionEnabled = false
-            self.childView.isHidden = true
-            self.isHidden = true
+            weakSelf!.isUserInteractionEnabled = false
+            weakSelf!.childView.isHidden = true
+            weakSelf!.isHidden = true
         })
     }
 }

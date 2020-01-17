@@ -27,6 +27,8 @@
 		564BC01423D03FB9002740C3 /* NNWeChatReadController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564BC01323D03FB9002740C3 /* NNWeChatReadController.swift */; };
 		564BC01623D04546002740C3 /* NNWeChatReadAnimationProtocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564BC01523D04546002740C3 /* NNWeChatReadAnimationProtocal.swift */; };
 		564BC01823D0458E002740C3 /* NNWeChatReadAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564BC01723D0458E002740C3 /* NNWeChatReadAnimationView.swift */; };
+		564BC02023D1446A002740C3 /* NNWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564BC01F23D1446A002740C3 /* NNWebViewController.swift */; };
+		564BC02223D14D98002740C3 /* Native&JS.html in Resources */ = {isa = PBXBuildFile; fileRef = 564BC02123D14D97002740C3 /* Native&JS.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +75,8 @@
 		564BC01323D03FB9002740C3 /* NNWeChatReadController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNWeChatReadController.swift; sourceTree = "<group>"; };
 		564BC01523D04546002740C3 /* NNWeChatReadAnimationProtocal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNWeChatReadAnimationProtocal.swift; sourceTree = "<group>"; };
 		564BC01723D0458E002740C3 /* NNWeChatReadAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNWeChatReadAnimationView.swift; sourceTree = "<group>"; };
+		564BC01F23D1446A002740C3 /* NNWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNWebViewController.swift; sourceTree = "<group>"; };
+		564BC02123D14D97002740C3 /* Native&JS.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Native&JS.html"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -259,6 +263,8 @@
 		564BBFAA23C57931002740C3 /* Project 06 */ = {
 			isa = PBXGroup;
 			children = (
+				564BC01F23D1446A002740C3 /* NNWebViewController.swift */,
+				564BC02123D14D97002740C3 /* Native&JS.html */,
 			);
 			path = "Project 06";
 			sourceTree = "<group>";
@@ -519,6 +525,7 @@
 				564BBF7C23C5783A002740C3 /* LaunchScreen.storyboard in Resources */,
 				564BBF7923C5783A002740C3 /* Assets.xcassets in Resources */,
 				564BBF7423C57836002740C3 /* Main.storyboard in Resources */,
+				564BC02223D14D98002740C3 /* Native&JS.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -556,6 +563,7 @@
 				564BC01423D03FB9002740C3 /* NNWeChatReadController.swift in Sources */,
 				564BBF7123C57836002740C3 /* ViewController.swift in Sources */,
 				564BBF6F23C57836002740C3 /* AppDelegate.swift in Sources */,
+				564BC02023D1446A002740C3 /* NNWebViewController.swift in Sources */,
 				564BBFC523C5B67B002740C3 /* NNStopWatchController.swift in Sources */,
 				564BBFD323D033EA002740C3 /* NNValidationView.swift in Sources */,
 			);

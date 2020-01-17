@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<head>
+    <title>JS原生交互</title>
+    <meta charset="utf-8">
+</head>
+
+<style type='text/css'>
+    img{
+        cursor:pointer;
+    }
+</style>
+
+<body>
+    <h2 style="text-align:center">NICE TO MEET YOU</h2>
+
+    <p style="text-align:center"> <a href="https://github.com/liuzhongning">My Github</a></p>
+    
+    <p style="text-align:center">
+        <button id="btn1" type="button" onclick="jsCallNativeFunction1()">JS调原生：不带参数</button></p>
+    <p style="text-align:center">
+        <button id="btn2" type="button" onclick="jsCallNativeFunction2()">JS调原生：带参数</button></p>
+    <h2 style="text-align:center">
+        <label id="labelId" type="label">WELCOME<label></h2>
+
+    <script type="text/javascript">
+        var tempIndex = 1
+        
+        // JS调原生不带参数
+        function jsCallNativeFunction1() {
+            window.webkit.messageHandlers.jsCallNativeNoPrams.postMessage({});
+        }
+    
+        // JS调原生带参数
+        function jsCallNativeFunction2() {
+            window.webkit.messageHandlers.jsCallNativeWithPrams.postMessage({
+                "params": "JS传来的参数"
+            });
+        }
+
+        // 原生调JS
+        function changeTextContent(labelId, customText) {
+            var label = document.getElementById(labelId);
+            label.textContent = customText + "点击次数：" + tempIndex;
+            tempIndex++;
+        }
+    </script>
+</body>
+
+</html>
