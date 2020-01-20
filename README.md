@@ -1,4 +1,4 @@
-![](https://github.com/liuzhongning/Swift30/blob/master/resources/Swift30.jpg)
+# Swift30
 
 ### 1.计时器
 ### 2.电池条
