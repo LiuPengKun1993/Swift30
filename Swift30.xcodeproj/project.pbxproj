@@ -31,6 +31,8 @@
 		564BC02223D14D98002740C3 /* Native&JS.html in Resources */ = {isa = PBXBuildFile; fileRef = 564BC02123D14D97002740C3 /* Native&JS.html */; };
 		564BC02C23D29442002740C3 /* NNTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564BC02B23D29442002740C3 /* NNTextViewController.swift */; };
 		564BC02E23D29452002740C3 /* NNTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564BC02D23D29452002740C3 /* NNTextView.swift */; };
+		564BC03723E1B3DF002740C3 /* NNReplyCommentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564BC03623E1B3DF002740C3 /* NNReplyCommentView.swift */; };
+		564BC03923E1C91E002740C3 /* NNReplyCommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564BC03823E1C91E002740C3 /* NNReplyCommentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +83,8 @@
 		564BC02123D14D97002740C3 /* Native&JS.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Native&JS.html"; sourceTree = "<group>"; };
 		564BC02B23D29442002740C3 /* NNTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNTextViewController.swift; sourceTree = "<group>"; };
 		564BC02D23D29452002740C3 /* NNTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNTextView.swift; sourceTree = "<group>"; };
+		564BC03623E1B3DF002740C3 /* NNReplyCommentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNReplyCommentView.swift; sourceTree = "<group>"; };
+		564BC03823E1C91E002740C3 /* NNReplyCommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNReplyCommentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -283,6 +287,8 @@
 		564BBFAC23C57931002740C3 /* Project 08 */ = {
 			isa = PBXGroup;
 			children = (
+				564BC03823E1C91E002740C3 /* NNReplyCommentViewController.swift */,
+				564BC03623E1B3DF002740C3 /* NNReplyCommentView.swift */,
 			);
 			path = "Project 08";
 			sourceTree = "<group>";
@@ -569,7 +575,9 @@
 				564BC01623D04546002740C3 /* NNWeChatReadAnimationProtocal.swift in Sources */,
 				564BC01423D03FB9002740C3 /* NNWeChatReadController.swift in Sources */,
 				564BBF7123C57836002740C3 /* ViewController.swift in Sources */,
+				564BC03723E1B3DF002740C3 /* NNReplyCommentView.swift in Sources */,
 				564BBF6F23C57836002740C3 /* AppDelegate.swift in Sources */,
+				564BC03923E1C91E002740C3 /* NNReplyCommentViewController.swift in Sources */,
 				564BC02023D1446A002740C3 /* NNWebViewController.swift in Sources */,
 				564BC02E23D29452002740C3 /* NNTextView.swift in Sources */,
 				564BBFC523C5B67B002740C3 /* NNStopWatchController.swift in Sources */,
