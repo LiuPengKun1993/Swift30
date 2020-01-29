@@ -24,11 +24,6 @@ class NNReplyCommentView: UIView, UITextViewDelegate {
     let textViewHeight: CGFloat = 36.0
     let totleHeight: CGFloat = 14.0+36.0
     
-    static let sharedInstance: NNReplyCommentView = {
-        let instance = NNReplyCommentView()
-        return instance
-    }()
-    
     
     func showKeyboardType(type: UIKeyboardType, content: NSString) {
         if !isShow {
