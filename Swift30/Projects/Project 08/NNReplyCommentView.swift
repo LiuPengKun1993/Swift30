@@ -24,7 +24,7 @@ class NNReplyCommentView: UIView, UITextViewDelegate {
     let textViewHeight: CGFloat = 36.0
     let totleHeight: CGFloat = 14.0+36.0
     
-    
+    // MARK: - 初始化方法
     func showKeyboardType(type: UIKeyboardType, content: NSString) {
         if !isShow {
             self.show()
@@ -34,12 +34,14 @@ class NNReplyCommentView: UIView, UITextViewDelegate {
         }
     }
     
+    // MARK: - 展示
     func show() {
         let window = UIApplication.shared.keyWindow
         self.frame = CGRect(x: 0, y: kScreenHeight, width: kScreen_width, height: 7*2+36)
         window?.addSubview(self)
     }
     
+    // MARK: - 关闭
     func close() {
         isShow = false
         NotificationCenter.default.removeObserver(self)
@@ -52,6 +54,7 @@ class NNReplyCommentView: UIView, UITextViewDelegate {
         self.configSubViews()
     }
     
+    // MARK: - 视图加载区域
     func configSubViews() {
         self.backgroundColor = UIColor.init(red: 244/255.0, green: 244/255.0, blue: 244/255.0, alpha: 1)
         self.addSubview(lineView)
@@ -65,6 +68,7 @@ class NNReplyCommentView: UIView, UITextViewDelegate {
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardDidHide), name: UIResponder.keyboardDidHideNotification, object: nil)
     }
     
+    // MARK: - 键盘将要出现
     @objc func keyboardWillShow(notification: Notification) {
         weak var weakSelf = self
 
@@ -79,6 +83,7 @@ class NNReplyCommentView: UIView, UITextViewDelegate {
         isShow = true
     }
     
+    // MARK: - 键盘将要消失
     @objc func keyboardWillHide(notification: NSNotification) {
         weak var weakSelf = self
 
@@ -89,10 +94,12 @@ class NNReplyCommentView: UIView, UITextViewDelegate {
         }
     }
     
+    // MARK: - 键盘已经消失
     @objc func keyboardDidHide(notification: NSNotification) {
         isShow = false
     }
     
+    // MARK: - UITextView 代理区域
     func textView(_ textView: UITextView, shouldChangeTextIn range: NSRange, replacementText text: String) -> Bool {
         if text == "\n" {
             let textString = textView.text.trimmingCharacters(in: CharacterSet.whitespaces)
@@ -102,6 +109,7 @@ class NNReplyCommentView: UIView, UITextViewDelegate {
         return true
     }
     
+    // MARK: - 监听评论框大小改变
     override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
         let view : UITextView = object as! UITextView
         if keyPath == "contentSize" {
@@ -116,6 +124,7 @@ class NNReplyCommentView: UIView, UITextViewDelegate {
         }
     }
     
+    // MARK: - 改变评论框大小
     func updateSelfOfTextViewSize()  {
         if textView.frame.size.height > 112 {
             return
@@ -137,6 +146,7 @@ class NNReplyCommentView: UIView, UITextViewDelegate {
         fatalError("init(coder:) has not been implemented")
     }
     
+    // MARK: - 懒加载区域
     lazy var lineView:UIView = {
         let lineView = UIView.init(frame: CGRect(x: 0, y: 0, width: kScreen_width, height: 0.5))
         lineView.backgroundColor = UIColor.init(red: 244/255.0, green: 244/255.0, blue: 244/255.0, alpha: 1)
