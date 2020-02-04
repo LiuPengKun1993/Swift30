@@ -33,6 +33,8 @@
 		564BC02E23D29452002740C3 /* NNTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564BC02D23D29452002740C3 /* NNTextView.swift */; };
 		564BC03723E1B3DF002740C3 /* NNReplyCommentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564BC03623E1B3DF002740C3 /* NNReplyCommentView.swift */; };
 		564BC03923E1C91E002740C3 /* NNReplyCommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564BC03823E1C91E002740C3 /* NNReplyCommentViewController.swift */; };
+		564BC03B23E916BF002740C3 /* NNPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564BC03A23E916BF002740C3 /* NNPickerView.swift */; };
+		564BC03D23E916CF002740C3 /* NNPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564BC03C23E916CF002740C3 /* NNPickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +87,8 @@
 		564BC02D23D29452002740C3 /* NNTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNTextView.swift; sourceTree = "<group>"; };
 		564BC03623E1B3DF002740C3 /* NNReplyCommentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNReplyCommentView.swift; sourceTree = "<group>"; };
 		564BC03823E1C91E002740C3 /* NNReplyCommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNReplyCommentViewController.swift; sourceTree = "<group>"; };
+		564BC03A23E916BF002740C3 /* NNPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNPickerView.swift; sourceTree = "<group>"; };
+		564BC03C23E916CF002740C3 /* NNPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNPickerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -296,6 +300,8 @@
 		564BBFAD23C57931002740C3 /* Project 09 */ = {
 			isa = PBXGroup;
 			children = (
+				564BC03C23E916CF002740C3 /* NNPickerViewController.swift */,
+				564BC03A23E916BF002740C3 /* NNPickerView.swift */,
 			);
 			path = "Project 09";
 			sourceTree = "<group>";
@@ -569,10 +575,12 @@
 				564BBFC323C58531002740C3 /* swift30.swift in Sources */,
 				564BBF7723C57836002740C3 /* Swift30.xcdatamodeld in Sources */,
 				564BBFCF23CFF4D8002740C3 /* NNValidationCodeView.swift in Sources */,
+				564BC03B23E916BF002740C3 /* NNPickerView.swift in Sources */,
 				564BBFD523D033F6002740C3 /* NNValidationController.swift in Sources */,
 				564BC01823D0458E002740C3 /* NNWeChatReadAnimationView.swift in Sources */,
 				564BBFCB23CEF66E002740C3 /* NNBatteryController.swift in Sources */,
 				564BC01623D04546002740C3 /* NNWeChatReadAnimationProtocal.swift in Sources */,
+				564BC03D23E916CF002740C3 /* NNPickerViewController.swift in Sources */,
 				564BC01423D03FB9002740C3 /* NNWeChatReadController.swift in Sources */,
 				564BBF7123C57836002740C3 /* ViewController.swift in Sources */,
 				564BC03723E1B3DF002740C3 /* NNReplyCommentView.swift in Sources */,
