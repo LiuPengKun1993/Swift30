@@ -15,6 +15,7 @@ Coding Swift in holiday, just do it.
 | 7.带占位文本且自动换行的TextView | [NNTextView.swift](https://github.com/liuzhongning/Swift30/blob/master/Swift30/Projects/Project%2007/NNTextView.swift)|
 | 8.高度自适应的评论框 | [NNReplyCommentView.swift](https://github.com/liuzhongning/Swift30/blob/master/Swift30/Projects/Project%2008/NNReplyCommentView.swift)|
 | 9.选择器 | [NNPickerView.swift](https://github.com/liuzhongning/Swift30/blob/master/Swift30/Projects/Project%2009/NNPickerView.swift)|
+| 10.选择框 | [NNSelectionBoxView.swift](https://github.com/liuzhongning/Swift30/blob/master/Swift30/Projects/Project%2010/NNSelectionBoxView.swift)|
 
 如有需要，请下载整个项目 [Swift30](https://github.com/liuzhongning/Swift30)
 
