@@ -35,6 +35,8 @@
 		564BC03923E1C91E002740C3 /* NNReplyCommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564BC03823E1C91E002740C3 /* NNReplyCommentViewController.swift */; };
 		564BC03B23E916BF002740C3 /* NNPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564BC03A23E916BF002740C3 /* NNPickerView.swift */; };
 		564BC03D23E916CF002740C3 /* NNPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564BC03C23E916CF002740C3 /* NNPickerViewController.swift */; };
+		5651AC4A2404ECB900F1AC16 /* NNSelectionBoxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5651AC492404ECB900F1AC16 /* NNSelectionBoxViewController.swift */; };
+		5651AC4C2404ECC700F1AC16 /* NNSelectionBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5651AC4B2404ECC700F1AC16 /* NNSelectionBoxView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +91,8 @@
 		564BC03823E1C91E002740C3 /* NNReplyCommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNReplyCommentViewController.swift; sourceTree = "<group>"; };
 		564BC03A23E916BF002740C3 /* NNPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNPickerView.swift; sourceTree = "<group>"; };
 		564BC03C23E916CF002740C3 /* NNPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNPickerViewController.swift; sourceTree = "<group>"; };
+		5651AC492404ECB900F1AC16 /* NNSelectionBoxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNSelectionBoxViewController.swift; sourceTree = "<group>"; };
+		5651AC4B2404ECC700F1AC16 /* NNSelectionBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNSelectionBoxView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -353,6 +357,8 @@
 		564BBFB423C57931002740C3 /* Project 10 */ = {
 			isa = PBXGroup;
 			children = (
+				5651AC492404ECB900F1AC16 /* NNSelectionBoxViewController.swift */,
+				5651AC4B2404ECC700F1AC16 /* NNSelectionBoxView.swift */,
 			);
 			path = "Project 10";
 			sourceTree = "<group>";
@@ -569,6 +575,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				564BBFCD23CEF67F002740C3 /* NNBatteryView.swift in Sources */,
+				5651AC4A2404ECB900F1AC16 /* NNSelectionBoxViewController.swift in Sources */,
 				564BC02C23D29442002740C3 /* NNTextViewController.swift in Sources */,
 				564BBFC723C5B6A2002740C3 /* NNStopWatchView.swift in Sources */,
 				564BBFD123CFF4E7002740C3 /* NNValidationCodeController.swift in Sources */,
@@ -584,6 +591,7 @@
 				564BC01423D03FB9002740C3 /* NNWeChatReadController.swift in Sources */,
 				564BBF7123C57836002740C3 /* ViewController.swift in Sources */,
 				564BC03723E1B3DF002740C3 /* NNReplyCommentView.swift in Sources */,
+				5651AC4C2404ECC700F1AC16 /* NNSelectionBoxView.swift in Sources */,
 				564BBF6F23C57836002740C3 /* AppDelegate.swift in Sources */,
 				564BC03923E1C91E002740C3 /* NNReplyCommentViewController.swift in Sources */,
 				564BC02023D1446A002740C3 /* NNWebViewController.swift in Sources */,
