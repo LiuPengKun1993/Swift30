@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5637D18D240F96B900A3AF37 /* NNDrawingBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5637D18C240F96B900A3AF37 /* NNDrawingBoardView.swift */; };
+		5637D190240F986A00A3AF37 /* NNDrawingBoardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5637D18E240F986A00A3AF37 /* NNDrawingBoardController.swift */; };
+		5637D191240F986A00A3AF37 /* NNDrawingBoardController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5637D18F240F986A00A3AF37 /* NNDrawingBoardController.xib */; };
 		564BBF6F23C57836002740C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564BBF6E23C57836002740C3 /* AppDelegate.swift */; };
 		564BBF7123C57836002740C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564BBF7023C57836002740C3 /* ViewController.swift */; };
 		564BBF7423C57836002740C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 564BBF7223C57836002740C3 /* Main.storyboard */; };
@@ -57,6 +60,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5637D18C240F96B900A3AF37 /* NNDrawingBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNDrawingBoardView.swift; sourceTree = "<group>"; };
+		5637D18E240F986A00A3AF37 /* NNDrawingBoardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNDrawingBoardController.swift; sourceTree = "<group>"; };
+		5637D18F240F986A00A3AF37 /* NNDrawingBoardController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NNDrawingBoardController.xib; sourceTree = "<group>"; };
 		564BBF6B23C57836002740C3 /* Swift30.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift30.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		564BBF6E23C57836002740C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		564BBF7023C57836002740C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -366,6 +372,9 @@
 		564BBFB523C57931002740C3 /* Project 11 */ = {
 			isa = PBXGroup;
 			children = (
+				5637D18E240F986A00A3AF37 /* NNDrawingBoardController.swift */,
+				5637D18F240F986A00A3AF37 /* NNDrawingBoardController.xib */,
+				5637D18C240F96B900A3AF37 /* NNDrawingBoardView.swift */,
 			);
 			path = "Project 11";
 			sourceTree = "<group>";
@@ -548,6 +557,7 @@
 			files = (
 				564BBF7C23C5783A002740C3 /* LaunchScreen.storyboard in Resources */,
 				564BBF7923C5783A002740C3 /* Assets.xcassets in Resources */,
+				5637D191240F986A00A3AF37 /* NNDrawingBoardController.xib in Resources */,
 				564BBF7423C57836002740C3 /* Main.storyboard in Resources */,
 				564BC02223D14D98002740C3 /* Native&JS.html in Resources */,
 			);
@@ -593,6 +603,8 @@
 				564BC03723E1B3DF002740C3 /* NNReplyCommentView.swift in Sources */,
 				5651AC4C2404ECC700F1AC16 /* NNSelectionBoxView.swift in Sources */,
 				564BBF6F23C57836002740C3 /* AppDelegate.swift in Sources */,
+				5637D190240F986A00A3AF37 /* NNDrawingBoardController.swift in Sources */,
+				5637D18D240F96B900A3AF37 /* NNDrawingBoardView.swift in Sources */,
 				564BC03923E1C91E002740C3 /* NNReplyCommentViewController.swift in Sources */,
 				564BC02023D1446A002740C3 /* NNWebViewController.swift in Sources */,
 				564BC02E23D29452002740C3 /* NNTextView.swift in Sources */,
