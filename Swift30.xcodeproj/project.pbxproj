@@ -10,6 +10,7 @@
 		5637D18D240F96B900A3AF37 /* NNDrawingBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5637D18C240F96B900A3AF37 /* NNDrawingBoardView.swift */; };
 		5637D190240F986A00A3AF37 /* NNDrawingBoardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5637D18E240F986A00A3AF37 /* NNDrawingBoardController.swift */; };
 		5637D191240F986A00A3AF37 /* NNDrawingBoardController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5637D18F240F986A00A3AF37 /* NNDrawingBoardController.xib */; };
+		5637D193240FA3AB00A3AF37 /* NNFontNameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5637D192240FA3AB00A3AF37 /* NNFontNameController.swift */; };
 		564BBF6F23C57836002740C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564BBF6E23C57836002740C3 /* AppDelegate.swift */; };
 		564BBF7123C57836002740C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564BBF7023C57836002740C3 /* ViewController.swift */; };
 		564BBF7423C57836002740C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 564BBF7223C57836002740C3 /* Main.storyboard */; };
@@ -63,6 +64,7 @@
 		5637D18C240F96B900A3AF37 /* NNDrawingBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNDrawingBoardView.swift; sourceTree = "<group>"; };
 		5637D18E240F986A00A3AF37 /* NNDrawingBoardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNDrawingBoardController.swift; sourceTree = "<group>"; };
 		5637D18F240F986A00A3AF37 /* NNDrawingBoardController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NNDrawingBoardController.xib; sourceTree = "<group>"; };
+		5637D192240FA3AB00A3AF37 /* NNFontNameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNFontNameController.swift; sourceTree = "<group>"; };
 		564BBF6B23C57836002740C3 /* Swift30.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift30.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		564BBF6E23C57836002740C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		564BBF7023C57836002740C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -255,6 +257,7 @@
 		564BBFA623C57931002740C3 /* Project 12 */ = {
 			isa = PBXGroup;
 			children = (
+				5637D192240FA3AB00A3AF37 /* NNFontNameController.swift */,
 			);
 			path = "Project 12";
 			sourceTree = "<group>";
@@ -607,6 +610,7 @@
 				5637D18D240F96B900A3AF37 /* NNDrawingBoardView.swift in Sources */,
 				564BC03923E1C91E002740C3 /* NNReplyCommentViewController.swift in Sources */,
 				564BC02023D1446A002740C3 /* NNWebViewController.swift in Sources */,
+				5637D193240FA3AB00A3AF37 /* NNFontNameController.swift in Sources */,
 				564BC02E23D29452002740C3 /* NNTextView.swift in Sources */,
 				564BBFC523C5B67B002740C3 /* NNStopWatchController.swift in Sources */,
 				564BBFD323D033EA002740C3 /* NNValidationView.swift in Sources */,
